@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Kind.grocer',
+    description:
+      'A modern, plant-based grocer & deli coming soon to Vogel St. Dunedin.',
   },
   plugins: ['gatsby-plugin-react-helmet'],
 }
