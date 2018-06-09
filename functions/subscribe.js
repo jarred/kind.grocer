@@ -1,6 +1,6 @@
-import campaignMonitor from 'campaignmonitor'
+var campaignMonitor = require('campaignmonitor')
 
-const cmApi = campaignMonitor({
+var cmApi = campaignMonitor({
   apiKey: '047998d3b4cb256d632dc70be936e3a811773eba764bdfe1',
 })
 
