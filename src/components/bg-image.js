@@ -6,7 +6,7 @@ const BgImage = () => (
   <div
     className="BgImage"
     style={{
-      backgroundImage: 'url(/static/images/ferns.jpg)',
+      backgroundImage: 'url(/images/ferns.jpg)',
     }}
   />
 )
