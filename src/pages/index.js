@@ -5,12 +5,14 @@ import SubscribeForm from '../components/subscribe-form'
 const IndexPage = () => (
   <div>
     <p>A modern, plant-based grocer & deli coming soon to Vogel St. Dunedin.</p>
-    <SubscribeForm />
-    <div className="cta">
-      <a target="_blank" href="http://instagram.com/kind.grocer">
-        Follow us on Instagram
-      </a>
-    </div>
+
+    {false && (
+      <div className="cta">
+        <a target="_blank" href="http://instagram.com/kind.grocer">
+          Follow us on Instagram
+        </a>
+      </div>
+    )}
   </div>
 )
 
