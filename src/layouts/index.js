@@ -4,7 +4,6 @@ import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 
 import KindLogo from '../components/kind-logo'
-import BgImage from '../components/bg-image'
 
 import '../css/normalize.css'
 import './index.css'
@@ -17,7 +16,6 @@ const Layout = ({ children, data }) => (
         { name: 'description', content: data.site.siteMetadata.description },
       ]}
     />
-    <BgImage />
     <div className="internal">
       <Link to="/">
         <KindLogo />
