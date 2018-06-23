@@ -2,11 +2,15 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
+import ReactGA from 'react-ga'
 
 import KindLogo from '../components/kind-logo'
 
 import '../css/normalize.css'
 import './index.css'
+
+ReactGA.initialize('UA-71711569-9')
+ReactGA.pageview(window.location.pathname + window.location.search)
 
 const Layout = ({ children, data }) => (
   <div>
