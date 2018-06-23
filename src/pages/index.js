@@ -12,7 +12,9 @@ const IndexPage = () => (
     <div className="cta">
       <a href="http://instagram.com/kind.grocer">Follow us on Instagram</a>
       <br />
-      <a href="#">Join our Mailing List</a>
+      <a href="https://confirmsubscription.com/h/r/D3D4DF93AF45704A">
+        Join our mailing list
+      </a>
     </div>
   </div>
 )
