@@ -1,19 +1,19 @@
 # Redirect domain aliases to primary domain
-https://kindgrocer.co.nz/* https://kindgrocer.nz/:splat 301!
-https://www.kindgrocer.co.nz/* https://kindgrocer.nz/:splat 301!
-https://kindgrocery.co.nz/* https://kindgrocer.nz/:splat 301!
-https://www.kindgrocery.co.nz/* https://kindgrocer.nz/:splat 301!
-https://kindgrocery.nz/* https://kindgrocer.nz/:splat 301!
-https://www.kindgrocery.nz/* https://kindgrocer.nz/:splat 301!
+https://kindgrocer.co.nz/* https://shop.kindgrocer.nz/:splat 301!
+https://www.kindgrocer.co.nz/* https://shop.kindgrocer.nz/:splat 301!
+https://kindgrocery.co.nz/* https://shop.kindgrocer.nz/:splat 301!
+https://www.kindgrocery.co.nz/* https://shop.kindgrocer.nz/:splat 301!
+https://kindgrocery.nz/* https://shop.kindgrocer.nz/:splat 301!
+https://www.kindgrocery.nz/* https://shop.kindgrocer.nz/:splat 301!
 
 # These extra rules are required because HTTPS is not forced
-http://kindgrocer.co.nz/* https://kindgrocer.nz/:splat 301!
-http://www.kindgrocer.co.nz/* https://kindgrocer.nz/:splat 301!
-http://kindgrocery.co.nz/* https://kindgrocer.nz/:splat 301!
-http://www.kindgrocery.co.nz/* https://kindgrocer.nz/:splat 301!
-http://kindgrocery.nz/* https://kindgrocer.nz/:splat 301!
-http://www.kindgrocery.nz/* https://kindgrocer.nz/:splat 301!
+http://kindgrocer.co.nz/* https://shop.kindgrocer.nz/:splat 301!
+http://www.kindgrocer.co.nz/* https://shop.kindgrocer.nz/:splat 301!
+http://kindgrocery.co.nz/* https://shop.kindgrocer.nz/:splat 301!
+http://www.kindgrocery.co.nz/* https://shop.kindgrocer.nz/:splat 301!
+http://kindgrocery.nz/* https://shop.kindgrocer.nz/:splat 301!
+http://www.kindgrocery.nz/* https://shop.kindgrocer.nz/:splat 301!
 
 # Optional: Redirect default Netlify subdomain to primary domain
-https://kindgrocer.netlify.com/* https://kindgrocer.nz/:splat 301!
-http://kindgrocer.netlify.com/* https://kindgrocer.nz/:splat 301!
+https://kindgrocer.netlify.com/* https://shop.kindgrocer.nz/:splat 301!
+http://kindgrocer.netlify.com/* https://shop.kindgrocer.nz/:splat 301!
