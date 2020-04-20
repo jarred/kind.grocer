@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/"
+  to = "https://shop.kindgrocer.nz"
+  status = 301
