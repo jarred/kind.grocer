@@ -1,3 +1,6 @@
+https://kindgrocer.nz/* https://shop.kindgrocer.nz/:splat 301!
+https://www.kindgrocer.nz/* https://shop.kindgrocer.nz/:splat 301!
+
 # Redirect domain aliases to primary domain
 https://kindgrocer.co.nz/* https://shop.kindgrocer.nz/:splat 301!
 https://www.kindgrocer.co.nz/* https://shop.kindgrocer.nz/:splat 301!
